@@ -51,7 +51,7 @@
     try {
       await fetch(SCRIPT_URL, {
         method: 'POST',
-        mode: 'no-cors', // 🔥 bypass CORS
+        mode: 'no-cors', //  bypass CORS
         headers: {
           'Content-Type': 'application/json',
         },
